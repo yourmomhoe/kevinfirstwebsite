@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kevin's First Website</title>
+  <link rel="stylesheet" href="css/styles.css"> <!-- Link to external CSS file -->
+  <script>
+    function navigateTo(page) {
+      window.location.href = page;
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Kevin's First Website</h1>
+    <nav>
+      <button onclick="navigateTo('index.html')">Home</button>
+      <button onclick="navigateTo('about.html')">About</button>
+      <button onclick="navigateTo('contact.html')">Contact</button>
+    </nav>
+  </header>
+  <main>
+    <div class="center-image">
+        <img src="images/antitrudyy.jpeg" alt="Anti-Trudyy Image">
+      </div>
+    <p>This is a paragraph of text on my first web page.</p>
+    <a href="https://example.com">Visit Example</a>
+  </main>
+</body>
+</html>
